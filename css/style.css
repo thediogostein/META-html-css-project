@@ -1,0 +1,158 @@
+/* || RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  font: inherit;
+}
+
+/* || VARIABLES */
+
+:root {
+  /* COLORS */
+  --white-pure: #ffffff;
+  --white-not-pure: #fcfaf7;
+  --green-regular: #26877f;
+  --green-darker: #175651;
+  --brown-darker: #392f29;
+  --brown-regular: #483b33;
+
+  /* FONT-SIZE */
+  --fs-61: 3.813rem;
+  --fs-49: 3.063rem;
+  --fs-39: 2.438rem;
+  --fs-31: 1.938rem;
+  --fs-25: 1.563rem;
+  --fs-20: 1.25rem;
+
+  /* SPACING */
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+}
+
+/* || SITEWIDE */
+
+/* || UTILITY CLASSES */
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/* || GENERAL STYLES */
+
+html {
+  font-size: var(--fs-20);
+  font-family: "Lora", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* || HEADER */
+
+.header {
+  margin: 0 auto;
+  text-align: center;
+  padding: 32px 0 56px;
+}
+
+.header__logo {
+  margin-bottom: var(--spacing-32);
+}
+
+/* || NAV */
+.nav {
+  font-size: var(--fs-25);
+}
+
+.nav__ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__li {
+  list-style: none;
+}
+
+.nav__a {
+  color: var(--brown-darker);
+}
+/* || HERO */
+
+.hero {
+  background-image: url(/imgs/hero.webp);
+  background-size: cover;
+  min-height: 765px;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  max-width: 1170px;
+}
+
+.hero__card {
+  background-color: rgba(252, 250, 247, 0.93);
+  width: 60%;
+  padding: var(--spacing-32);
+}
+
+.hero__overline {
+  font-size: var(--fs-20);
+}
+
+.hero__title {
+  font-size: var(--fs-39);
+  text-transform: uppercase;
+}
+
+/* || SERVICES */
+
+.services {
+}
+
+.services__title {
+  font-size: var(--fs-49);
+}
+
+.services__subtitle {
+  font-size: var(--fs-31);
+}
+
+.services__img {
+}
+
+.services__caption {
+  font-size: var(--fs-25);
+}
+
+/* || FOOTER */
+
+.footer {
+  background-color: var(--green-darker);
+  color: var(--white-pure);
+}
+
+/* || ABOUT */
+/* || CONTACT */
+
+/* || COMPONENTS */
+
+.btn {
+  display: inline-block;
+  font-size: var(--fs-20);
+  color: var(--white-pure);
+  padding: 0.5em 1.1em;
+}
+
+.btn-primary {
+  background-color: var(--green-regular);
+}
+
+.btn-secondary {
+  background-color: var(--brown-regular);
+}
