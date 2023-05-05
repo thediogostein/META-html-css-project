@@ -1,4 +1,3 @@
-
 # Project for the course HTML and CSS in depth, course 4 of the Meta Front-End Developer Professional Certificate.
 
 This is the website I built as an assignment for the HTML and CSS in depth course. The website is a simple yet elegant design that showcases the skills I have learned during the course. The website is fully responsive and looks great on all devices, including desktops, laptops, tablets, and smartphones.
@@ -18,7 +17,7 @@ You can check the website at:
 
 I used Figma to design the website. Figma is a popular design tool that allowed me to create the layout, typography, and color scheme for the website.
 
-### Images are from Freepik
+### Images by cookie_studio on Freepik
 
 [Picture 1](https://www.freepik.com/free-photo/plant-care-pruning-further-lush-flowering-female-hands-cut-off-branches-yellowed-leaves-ornamental-plant-with-scissors-woman-pruning-her-garden_14779702.htm#page=4&query=gardening&position=34&from_view=search&track=sph)
 
@@ -26,4 +25,4 @@ I used Figma to design the website. Figma is a popular design tool that allowed 
 
 [Picture 3](https://www.freepik.com/free-photo/outdoors-portrait-young-attractive-bearded-hispanic-man-blue-t-shirt-gloves-working-garden-with-tools-cutting-leaves-watering-plants-countryside-life_9696900.htm#query=gardener&position=0&from_view=search&track=sph)
 
-[Picture 4](https://www.freepik.com/free-photo/outdoors-portrait-young-attractive-bearded-hispanic-man-blue-t-shirt-gloves-working-garden-with-tools-cutting-leaves-watering-plants-countryside-life_9696900.htm#query=gardener&position=0&from_view=search&track=sph)
+[Picture 4](https://www.freepik.com/free-photo/young-handsome-cheerful-gardener-smiling-posing-with-crossed-arms-among-flowers_7762265.htm)
