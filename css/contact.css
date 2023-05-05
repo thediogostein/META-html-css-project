@@ -1,0 +1,71 @@
+:root {
+  /* COLORS */
+  --white-pure: #ffffff;
+  --white-not-pure: #fcfaf7;
+  --green-regular: #26877f;
+  --green-darker: #175651;
+  --brown-darker: #392f29;
+  --brown-regular: #483b33;
+  --brown-light: #997c6a;
+
+  /* FONT-SIZE */
+  --fs-6: 2.488rem;
+  --fs-5: 2rem;
+  --fs-4: 1.728rem;
+  --fs-3: 1.44rem;
+  --fs-2: 1.2rem;
+  --fs-1: 1rem;
+
+  /* SPACING */
+  --spacing-8: 8px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+  --spacing-104: 104px;
+}
+
+.about__title_row {
+  margin: 0;
+  padding: var(--spacing-104) 0;
+  gap: var(--spacing-64);
+}
+
+/* FORM */
+
+label {
+  display: block;
+  font-size: var(--fs-2);
+  margin-bottom: var(--spacing-8);
+}
+
+input,
+textarea {
+  width: 100%;
+  background-color: var(--brown-darker);
+  border: none;
+  color: var(--white-pure);
+  font-size: var(--fs-2);
+}
+
+input {
+  padding: 0.75rem;
+}
+
+.form__div {
+  margin-bottom: var(--spacing-16);
+}
+
+.form__div:last-child {
+  margin-bottom: 0;
+}
+@media (max-width: 800px) {
+  label {
+    text-align: left;
+  }
+
+  .about__title_row {
+    gap: var(--spacing-24);
+  }
+}
