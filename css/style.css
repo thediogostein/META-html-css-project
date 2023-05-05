@@ -215,7 +215,7 @@ img {
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.5)
     ),
-    url(imgs/hero.webp);
+    url(../imgs/hero.webp);
   background-size: cover;
   background-position: center;
 
