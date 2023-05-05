@@ -35,7 +35,7 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.7)
     ),
-    url(/imgs/hero.webp);
+    url(imgs/hero.webp);
   min-height: 34vh;
 }
 
